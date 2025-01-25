@@ -15,5 +15,7 @@ class GoToLinksController < ApplicationController
     else
       @go_to_link.errors.full_messages
     end
+
+    render :new, status: unprocessable_entity
   end
 end
