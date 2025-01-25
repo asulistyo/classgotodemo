@@ -47,6 +47,18 @@ gem "bootsnap", require: false
 # to enable scss in rails
 gem "sassc-rails"
 
+# install bootstrap
+gem "bootstrap", "~> 5.2"
+
+# install fontawesome
+gem "font-awesome-sass", "~> 6.1"
+
+# install simple form
+gem "simple_form"
+
+# more lewagon styles
+gem "autoprefixer-rails"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
